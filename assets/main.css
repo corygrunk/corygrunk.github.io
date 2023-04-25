@@ -130,6 +130,8 @@ body {
 
 .home p.home-description {
   color: #9f9f9f; }
+.home p.home-description strong {
+  color: #c6c6c6; }
 .home ul.post-list {
   margin: 0; }
   .home ul.post-list li {
