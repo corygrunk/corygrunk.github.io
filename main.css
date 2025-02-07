@@ -87,6 +87,7 @@ a:hover {
 }
 
 header {
+  height: 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,7 +105,7 @@ header .header-links {
   gap: 12px;
 }
 
-header a {
+header .header-links a {
   text-decoration: none;
   path {
     fill: var(--content-primary);
@@ -112,13 +113,13 @@ header a {
   }
 }
 
-header a:hover {
+header .header-links a:hover {
   path {
     fill: var(--content-link);
   }
 }
 
-header a svg {
+header .header-links a svg {
   width: 20px;
   height: 20px;
 }
@@ -166,11 +167,8 @@ a.project-thumb:hover {
 }
 
 
-
 .project-details {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 32px;
+
 }
 
 .project-details img {
@@ -193,17 +191,9 @@ a.project-thumb:hover {
 
 
 @media screen and (max-width: 680px) {
+
   .project-grid {
     grid-template-columns: 1fr;
   }
 
-  /* .project-details img {
-    width: 50%;
-    margin-bottom: 32px;
-    border-radius: 12px;
-  } */
-
-  /* h1 {
-    font-size: var(--text-xl);
-  } */
 }
