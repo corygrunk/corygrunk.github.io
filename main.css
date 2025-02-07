@@ -135,7 +135,7 @@ header a svg {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
 
@@ -144,10 +144,15 @@ a.project-thumb {
   padding: 8px;
   flex-direction: column;
   gap: 0px;
-  width: 400px;
+  width: 100%;
   text-decoration: none;
-  /* Add transition property */
   transition: padding 0.222s ease;
+}
+
+.project-thumb img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
 }
 
 a.project-thumb:hover {
@@ -155,7 +160,7 @@ a.project-thumb:hover {
 }
 
 .project-thumb img {
-  width: 400px;
+  width: 100%;
   margin-bottom: 8px;
 }
 
@@ -210,4 +215,15 @@ a:hover.header-back-link {
 .project-details p {
   font-size: var(--text-lg);
   margin-bottom: 24px;
+}
+
+
+@media screen and (max-width: 680px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: var(--text-xl);
+  }
 }
