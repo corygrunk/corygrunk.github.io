@@ -186,7 +186,7 @@ a:hover.header-back-link {
 
 .project-details img {
   width: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   border-radius: 12px;
 }
 
@@ -198,8 +198,8 @@ a:hover.header-back-link {
 }
 
 .project-details p {
-  font-size: var(--text-lg);
-  margin-bottom: 24px;
+  font-size: var(--text-xl);
+  margin-bottom: 32px;
 }
 
 
@@ -208,11 +208,7 @@ a:hover.header-back-link {
     grid-template-columns: 1fr;
   }
 
-  h1 {
+  /* h1 {
     font-size: var(--text-xl);
-  }
-
-  .project-details h3 {
-    font-size: var(--text-lg);
-  }
+  } */
 }
