@@ -1,22 +1,23 @@
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Cory Grunkemeyer &#x2022; Product/UX Designer</title>
-  <meta name="description" content="Cory Grunkemeyer's product design portfolio.">
-
+  <title>Cory Grunkemeyer &#x2022; Gitpod Flex Design System</title>
   <link rel="stylesheet" type="text/css" href="main.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
+  <div class="container project">
 
     <header>
-      <h1>Cory Grunkemeyer</h1>
+      <a href="index.html" class="header-back-link">
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M16.9428 5.72387C17.4635 6.24457 17.4635 7.08879 16.9428 7.60949L8.55226 16L16.9428 24.3905C17.4635 24.9112 17.4635 25.7555 16.9428 26.2762C16.4221 26.7969 15.5779 26.7969 15.0572 26.2762L5.72384 16.9428C5.20314 16.4221 5.20314 15.5779 5.72384 15.0572L15.0572 5.72387C15.5779 5.20317 16.4221 5.20317 16.9428 5.72387Z" fill="black"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M5.33331 16C5.33331 15.2636 5.93027 14.6667 6.66665 14.6667H25.3333C26.0697 14.6667 26.6666 15.2636 26.6666 16C26.6666 16.7364 26.0697 17.3333 25.3333 17.3333H6.66665C5.93027 17.3333 5.33331 16.7364 5.33331 16Z" fill="black"/>
+        </svg>   -->
+        <h1>Cory Grunkemeyer</h1>
+      </a>
       <div class="header-links">
         <a href="mailto:corygrunk@gmail.com">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -31,42 +32,19 @@
         </a>
     </header>
 
-    <div class="home-content">
-      <h2>I'm a product and UX designer creating impactful product solutions.</h2>
-      <p>Currently product design @ <a href="https://www.gitpod.io" target="_blank">Gitpod</a>. Previously product design @ <a href="https://slack.com" target="_blank">Slack</a>.</p>
+    <div class="project-details">
+      <h3>Gitpod Design System</h3>
+      <p>
+        I created the Gitpod Flex Design System to transform how our team designed and built products. By thoughtfully aligning Figma components with Tailwind CSS utility classes, we bridged the gap between design and development, significantly reducing implementation time. The system's intuitive structure enabled not just designers, but product managers and engineers to quickly create high-fidelity mockups. This democratization of design tools accelerated our product development process and improved cross-team collaboration, while maintaining consistent user experiences across Gitpod's products.
+      </p>
+
+      <img src="img/gitpod-ds-variables.png" alt="Design system variables">
+      <img src="img/gitpod-ds-icons.png" alt="Design system icons">
+      <img src="img/gitpod-ds-forms.png" alt="Design system forms">
+      <img src="img/gitpod-ds-nudge.png" alt="Design system nudges">
+
     </div>
 
-    <div class="project-grid">
-      <a class="project-thumb" href="gitpod-env.html">
-        <img src="img/environment-details-thumb.png" alt="Gitpod Environment Details">
-        <h3>Gitpod</h3>
-        <p>Managed developer environments</p>
-      </a>
-
-      <a class="project-thumb" href="gitpod-design-system.html">
-        <img src="img/design-system-thumbnail.png" alt="Gitpod Design System">
-        <h3>Gitpod</h3>
-        <p>Design system</p>
-      </a>
-
-      <a class="project-thumb" href="slack-workflow-builder.html">
-        <img src="img/slack-workflow-builder-thumbnail.png" alt="Slack Workflow Builder">
-        <h3>Slack</h3>
-        <p>Workflow Builder</p>
-      </a>
-
-      <a class="project-thumb" href="slack-gsheets.html">
-        <img src="img/slack-gsheets-thumbnail.png" alt="Slack Gsheets">
-        <h3>Slack</h3>
-        <p>Gsheets + Workflow Builder</p>
-      </a>
-
-      <a class="project-thumb" href="slack-block-kit.html">
-        <img src="img/slack-block-kit-thumbnail.png" alt="Slack Block Kit">
-        <h3>Slack</h3>
-        <p>Block Kit</p>
-      </a>
-    </div>
   </div>
 
 </body>
