@@ -43,16 +43,6 @@ input, button, textarea, select {
   font-size: var(--text-base);
 }
 
-body {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: var(--text-normal);
-  font-style: normal;
-  font-size: var(--text-base);
-  color: var(--content-primary);
-  background: var(--background-gradient, linear-gradient(222deg, #F2F2F2 13.91%, #BEC9CA 98.79%));
-}
-
 
 a,
 a:visited,
@@ -194,7 +184,9 @@ a.project-thumb:hover {
 
 
 @media screen and (max-width: 680px) {
-
+  body {
+    background: var(--background-gradient, linear-gradient(195deg, #e6e9e9 10%, #BEC9CA 98%));
+  }
   .project-grid {
     grid-template-columns: 1fr;
   }
