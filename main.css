@@ -196,5 +196,9 @@ a.project-thumb:hover {
   .project-grid {
     grid-template-columns: 1fr;
   }
+  .project-details p {
+    font-size: var(--text-base);
+    margin-bottom: 32px;
+  }
 
 }
