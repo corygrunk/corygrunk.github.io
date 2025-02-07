@@ -9,7 +9,10 @@ body {
   min-height: 100vh;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-family: Arial, sans-serif;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: var(--text-normal);
+  font-style: normal;
   font-size: var(--text-base);
   color: var(--content-primary);
   background: var(--background-gradient, linear-gradient(222deg, #F2F2F2 13.91%, #BEC9CA 98.79%));
@@ -52,18 +55,6 @@ body {
 
 h1 {
   font-size: var(--text-xxl);
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-p {
-
 }
 
 a,
@@ -159,11 +150,6 @@ a.project-thumb:hover {
   padding: 0;
 }
 
-.project-thumb img {
-  width: 100%;
-  margin-bottom: 8px;
-}
-
 .project-thumb h3 {
   font-size: var(--text-base);
   font-weight: var(--text-bold);
@@ -175,7 +161,6 @@ a.project-thumb:hover {
   font-weight: var(--text-base);
   color: var(--content-secondary);
 }
-
 
 
 a.header-back-link {
@@ -225,5 +210,9 @@ a:hover.header-back-link {
 
   h1 {
     font-size: var(--text-xl);
+  }
+
+  .project-details h3 {
+    font-size: var(--text-lg);
   }
 }
