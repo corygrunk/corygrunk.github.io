@@ -98,6 +98,7 @@ header h1 {
   font-size: var(--text-xxl);
   font-weight: var(--text-bold);
   color: var(--content-primary);
+  line-height: 120%;
 }
 
 header .header-links {
@@ -185,7 +186,7 @@ a.project-thumb:hover {
 }
 
 .project-details p {
-  font-size: var(--text-xl);
+  font-size: var(--text-lg);
   margin-bottom: 32px;
 }
 
