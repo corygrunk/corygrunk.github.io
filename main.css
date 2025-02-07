@@ -62,16 +62,17 @@ a:hover {
 }
 
 .container {
-  max-width: 896px;
+  max-width: 904px;
   margin: 40px auto;
   padding: 0 32px;
 }
+
 
 .home-content {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  padding-bottom: 32px;
+  padding: 0 8px 32px 8px;
 }
 
 .home-content h2 {
@@ -91,6 +92,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 8px;
   margin-bottom: 48px;
 }
 
@@ -169,7 +171,7 @@ a.project-thumb:hover {
 
 
 .project-details {
-
+  padding: 0 8px;
 }
 
 .project-details img {
